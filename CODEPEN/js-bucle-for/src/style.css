@@ -1,0 +1,38 @@
+body{
+	max-width:320px;
+	padding:20px;
+	margin: 10px auto;
+	font-family: sans-serif;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	min-height:90vh;
+}
+
+ul{
+  list-style:none;
+  padding-left:0;
+  display: flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+html{
+  background-color:lightblue;
+}
+
+li{
+  width:20px;
+  background:red;
+  border-radius:50px;
+  aspect-ratio:1/1;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+li:hover{
+  background:blue;
+  
+}
