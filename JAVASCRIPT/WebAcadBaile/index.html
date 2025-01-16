@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
+</head>
+
+<body>
+
+    <header>
+
+<div class="logo">Move</div>
+
+<nav>
+
+<ul>
+    <li><a onclick="mostrar('inicio')">Inicio</a></li>
+    <li><a onclick="mostrar('cursos')">Cursos</a></li>
+    <li><a onclick="mostrar('escuela')">Escuela</a></li>
+    <li><a onclick="mostrar('contactos')">Contacto</a></li>
+</ul>
+
+</nav>
+    </header>
+
+    <main>
+
+<section id="inicio">
+    <h1>Bienvenidos a la mejor escuela de baile de Asturias y Gijón</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corrupti blanditiis, officia numquam eaque temporibus ad, excepturi culpa ratione autem tempore iusto rerum provident? Atque magni veritatis est impedit obcaecati!</p>
+</section>
+
+<section id="cursos">
+<ul>
+    <li>Salsa</li>
+    <li>Bachata</li>
+    <li>Baile Moderno</li>
+    <li>Ballet</li>
+</ul>
+<h2>Horarios de nuestra escuela de baile</h2>
+<p>Lunes-Viernes  10:00-14:00
+ 
+</p>
+</section>
+
+<section id="escuela">
+    <h1>Nuestra escuela</h1>
+<p>Desde los comienzos Diego y Maria eran grandes amantes del baile</p>
+</section>
+
+<section id="contacto">
+    <h1>Ven a conocernos</h1>
+    <h2>Contacta con nosostros</h2>
+    <a href="tel:+34942544321">Lllamanos </a>
+    <a href="https://wa.me/676544321">Escríbenos pro whatsapp</a>
+</section>
+
+    </main>
+
+    <footer>
+<p>&copy; Copyright 2025 - Move your body </p>
+<p><a href="#">Aviso legal</a><a href="#">Politica de cookies</a></p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<script>
+    //variable que almacena el apartado a mostrar
+    let apartado="inicio";
+
+    //Funcion para mostrar el contenido
+    function mostar(folio){
+
+    //ocultar todos los apartados
+document.getElementById('inicio').style.display='none';
+document.getElementById('cursos').style.display='none';
+document.getElementById('escuela').style.display='none';
+document.getElementById('contacto').style.display='none';
+
+//mostrar solo el apartado que quiero
+document.getElementById(seccion).style.display='block';
+    }
+
+    // llamamos a la funcion para que funcione
+    function mostrar("inicio");
+</script>
