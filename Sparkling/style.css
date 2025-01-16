@@ -1,0 +1,38 @@
+:root{
+    --c1:#E66613;
+    --c2:white;
+    --ff:sans-serif;
+}
+body{
+    background-color:white;
+    font-family: var(--ff);
+}
+
+a{color:var(--c1);text-decoration: none;}
+
+header,footer{
+    background-color:var(--c2);
+
+   }
+
+   header{display:flex;}
+
+   header nav ul{
+    display:flex;
+    list-style:none;
+    padding-left:0;
+
+   }
+
+main{
+    max-width:960;
+    margin:0 auto;
+    display:flex;
+    gap:10px;
+    flex-direction:row-reverse;
+}
+
+main-aside{
+    width:30%;
+
+}
