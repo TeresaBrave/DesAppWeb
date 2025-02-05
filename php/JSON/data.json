@@ -1,0 +1,44 @@
+     
+  
+   {
+
+  "datos": [
+    {
+      "nombre": "El Gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "fecha": 1925,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg"
+    },
+    {
+      "nombre": "Crimen y Castigo",
+      "autor": "Fyodor Dostoevsky",
+      "fecha": 1866,
+      "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611982103i/56883826.jpg"
+    },
+    {
+      "nombre": "La Metamorfosis",
+      "autor": "Franz Kafka",
+      "fecha": 1915,
+      "img": "https://m.media-amazon.com/images/I/81B6ebdgtZL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "nombre": "1984",
+      "autor": "George Orwell",
+      "fecha": 1949,
+      "img": "https://m.media-amazon.com/images/I/71sOSrd+JxL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "nombre": "El lobo estepario",
+      "autor": "Hermann Hesse",
+      "fecha": 1927,
+      "img": "https://images.cdn2.buscalibre.com/fit-in/360x360/b5/4d/b54d3bae910b07a95ec82baa20f19f53.jpg"
+    },
+    {
+      "nombre": "La insoportable levedad del ser",
+      "autor": "Milan Kundera",
+      "fecha": 1984,
+      "img": "https://imagessl9.casadellibro.com/a/l/s5/59/9788472232259.webp"
+    }
+  ]
+}
+

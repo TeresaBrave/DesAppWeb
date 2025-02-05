@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --c1: tan;
+    --c2: brown;
+    --cl: white;
+    --cd: black;
+    --font-family: "Poppins", serif;
+    serif;
+    --maxw: 960px;
+}
+
+
+body {
+    font-family: "Poppins", serif;
+    padding: 20px;
+    max-width: var(--maxw);
+    margin: 0 auto;
+}
+
+
+h1,
+h2 {
+    margin-bottom: 10px;
+    color: var(--c1);
+}
+
+
+a {
+    color: #6B8E23;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--c2);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+header,
+main,
+footer {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1d0c1;
+    color: #5f4b8b;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* Black friday */
+
+#blackfriday{
+    background:#e7c8f2;
+    border: purple solid 4px;
+    padding:20px;
+    border-radius:20px;
+
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    gap:20px;
+    
+}
+
+#blackfriday h2{
+    color:purple;
+}
+
+
+#blackfriday img{
+    border-radius:10px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border: solid 1px purple;
+        animation: 3s anim1 infinite alternate;
+
+}
+
+
+#blackfriday a{
+    border:purple solid 2px;
+    border-radius:10px;
+    text-align:center;
+    color:purple;
+    margin:3px;
+    padding:8px 20px;
+    display: inline-block;
+       letter-spacing:px;
+    
+    transition:.3s;
+}
+
+#blackfriday a:hover{
+    scale:1.1;
+    background:purple;
+    color:white;
+    letter-spacing:1px;
+}
+
+@keyframes anim1{
+    0%{ rotate:30deg;}
+    100%%{ rotate:-30deg;}
+}
