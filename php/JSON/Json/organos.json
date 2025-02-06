@@ -1,0 +1,30 @@
+{
+    "organos": [
+      {
+        "nombre": "Corazón",
+        "funcion": "Bombea la sangre a través del sistema circulatorio.",
+        "ubicacion": "En el centro del pecho, ligeramente hacia la izquierda."
+      },
+      {
+        "nombre": "Pulmones",
+        "funcion": "Intercambian oxígeno y dióxido de carbono entre la sangre y el aire.",
+        "ubicacion": "En el tórax, a ambos lados del corazón."
+      },
+      {
+        "nombre": "Hígado",
+        "funcion": "Filtra toxinas y produce proteínas esenciales para la coagulación.",
+        "ubicacion": "En el lado derecho del abdomen, debajo del diafragma."
+      },
+      {
+        "nombre": "Riñones",
+        "funcion": "Filtran los desechos de la sangre y producen orina.",
+        "ubicacion": "En la parte baja de la espalda, a ambos lados de la columna vertebral."
+      },
+      {
+        "nombre": "Estómago",
+        "funcion": "Descompone los alimentos para su digestión.",
+        "ubicacion": "En la parte superior del abdomen, entre el esófago y el intestino delgado."
+      }
+    ]
+  }
+  

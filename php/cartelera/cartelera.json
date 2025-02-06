@@ -1,0 +1,31 @@
+{
+    "peliCartelera": [
+      {
+        "titulo": "Inception",
+        "anio": 2010,
+        "director": "Christopher Nolan",
+        "cartel":"https://m.media-amazon.com/images/I/810Tj6MPSVL._AC_UF894,1000_QL80_.jpg"
+    
+
+      },
+      {
+        "titulo": "The Dark Knight",
+        "anio": 2008,
+        "director": "Christopher Nolan",
+        "cartel":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "titulo": "Forrest Gump",
+        "anio": 1994,
+        "director": "Robert Zemeckis",
+        "cartel":"https://m.media-amazon.com/images/I/71Kih9pBDyL._AC_UF894,1000_QL80_.jpg"
+        
+      },
+      {
+        "titulo": "Gladiator",
+        "anio": 2000,
+        "director": "Ridley Scott",
+        "cartel":"https://pics.filmaffinity.com/Gladiator-368149580-large.jpg"
+      }
+    ]
+  }

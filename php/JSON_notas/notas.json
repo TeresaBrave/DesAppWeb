@@ -1,0 +1,49 @@
+{
+    "misNotas": [
+        {
+            "elemento": "Leche",
+            "cantidad": 2,
+            "precio": "1.30"
+        },
+        {
+            "elemento": "Tomate",
+            "cantidad": 4,
+            "precio": "0.45"
+        },
+        {
+            "elemento": "asdfasdfsadf",
+            "cantidad": "1",
+            "precio": "0"
+        },
+        {
+            "elemento": "Patatas",
+            "cantidad": "5",
+            "precio": "1"
+        },
+        {
+            "elemento": "Patatas",
+            "cantidad": "5",
+            "precio": "1"
+        },
+        {
+            "elemento": "Cebollas",
+            "cantidad": "5",
+            "precio": "2"
+        },
+        {
+            "elemento": "Jamón",
+            "cantidad": "2",
+            "precio": "1"
+        },
+        {
+            "elemento": "adsfsdf",
+            "cantidad": "1",
+            "precio": "0"
+        },
+        {
+            "elemento": "sdfsdf",
+            "cantidad": "1",
+            "precio": "0"
+        }
+    ]
+}

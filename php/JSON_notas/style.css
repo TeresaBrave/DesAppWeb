@@ -1,0 +1,46 @@
+:root{
+    --c1:coral;
+    --c2:rgb(147, 119, 83); 
+    --ff:sans-serif; 
+    --p:20px;
+    --bdrs:20px;
+    --mxw:650px;
+}
+html{
+    background: var(--c1);
+    padding: var(--p);
+}
+
+
+body{
+    max-width: var(--mxw);
+    font-family: var(--ff);
+    background-color: white;
+    border-radius: var(--bdrs);
+    padding: var(--p);
+}
+
+h1, h2, h3, h4, h5, h6{ color:var(--c1)}
+
+
+.btn, button, input[type='submit']{
+    background: none;
+    color:var(--c1);
+    border: var(--c1) 1px solid;
+    border-radius: var(--bdrs);
+    cursor: pointer;
+    padding: 4px 20px;
+}
+
+.btn:hover, button:hover, input[type='submit']:hover{
+    background:var(--c1);
+    color:white;
+}
+
+input{
+    border-radius: var(--bdrs);
+}
+
+label{
+    display: block;
+}
