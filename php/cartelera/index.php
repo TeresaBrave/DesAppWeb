@@ -38,6 +38,10 @@ echo "</pre>";
 ?>
 
 <style>
+
+    html{
+        font-family: sans-serif;
+    }
     .cartelera{
         display: flex;
         flex-wrap: wrap;
