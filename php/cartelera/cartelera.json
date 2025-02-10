@@ -5,27 +5,43 @@
         "anio": 2010,
         "director": "Christopher Nolan",
         "cartel":"https://m.media-amazon.com/images/I/810Tj6MPSVL._AC_UF894,1000_QL80_.jpg"
-    
-
+  
       },
       {
-        "titulo": "The Dark Knight",
-        "anio": 2008,
-        "director": "Christopher Nolan",
-        "cartel":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+        "titulo": "El atlas de las nubes",
+        "anio": 2012,
+        "director": "Lana Wachowski, Lilly Wachowski,
+        "cartel": "https://pics.filmaffinity.com/El_atlas_de_las_nubes-999032506-large.jpg"
       },
       {
-        "titulo": "Forrest Gump",
+        "titulo": "El gran hotel Budapest",
+        "anio": 2014,
+        "director": "Wes Anderson",
+        "cartel": "https://pics.filmaffinity.com/El_Gran_Hotel_Budapest-201169276-large.jpg"
+      },
+      {
+        "titulo": "El ilusionista",
+        "anio": 2006,
+        "director": "Neil Burger",
+        "cartel": "https://pics.filmaffinity.com/El_ilusionista-474923069-large.jpg"
+      },
+      {
+        "titulo": "La vida es bella",
+        "anio": 1997,
+        "director": "Roberto Benigni",
+        "cartel": "https://pics.filmaffinity.com/La_vida_es_bella-611574521-large.jpg"
+      },
+      {
+        "titulo": "Pulp Fiction",
         "anio": 1994,
-        "director": "Robert Zemeckis",
-        "cartel":"https://m.media-amazon.com/images/I/71Kih9pBDyL._AC_UF894,1000_QL80_.jpg"
-        
+        "director": "Quentin Tarantino",
+        "cartel": "https://pics.filmaffinity.com/Pulp_Fiction-210382116-large.jpg"
       },
       {
-        "titulo": "Gladiator",
-        "anio": 2000,
-        "director": "Ridley Scott",
-        "cartel":"https://pics.filmaffinity.com/Gladiator-368149580-large.jpg"
+        "titulo": "The Wolf of Wall Street",
+        "anio": 2013,
+        "director": "Martin Scorsese",
+        "cartel": "https://pics.filmaffinity.com/El_lobo_de_Wall_Street-675195906-large.jpg"
       }
     ]
   }

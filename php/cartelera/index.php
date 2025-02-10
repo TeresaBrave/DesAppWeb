@@ -13,29 +13,33 @@ $listaPeliculas=json_decode($miJSON,true);
 }
 
 else{
-echo "No se ha podido cargar el archivo $archivo";
-}
-
-
-echo '<ul class="cartelera">';
-//Foreach($variable ultima[nombre array]   as    $cada "arraycito")
-foreach ($listaPeliculas['peliCartelera'] as  $pelicula){
-    echo "<li>
-    <img src='{$pelicula['cartel']}' alt='{$pelicula['titulo']} de {$pelicula['director']}'>
-    <h2>{$pelicula['titulo']}</h2>
-    <p>{$pelicula['director']}</p>
-    </li>";
-}
-echo '</ul>';
-
+    echo "No se ha podido cargar el archivo $archivo";
+    }
+    
+    if(isset($listaPeliculas)){
+        echo '<ul class="cartelera">';
+        //Foreach($variable ultima[nombre array]   as    $cada "arraycito")
+        foreach($listaPeliculas['peliCartelera'] as $pelicula){
+            echo "
+            <li>
+                <img src='{$pelicula['cartel']}' alt='Película {$pelicula['titulo']} dirigida por {$pelicula['director']} '>
+                <h2>{$pelicula['titulo']}</h2>
+                <p>{$pelicula['director']}</p>
+            </li>";
+        }
+        echo '</ul>';
+        }
+    
 
 echo "<pre>";
-print_r($listadePeliculas);
+print_r($listaPeliculas);
 echo "</pre>";
 
 
 
 ?>
+
+
 
 <style>
 

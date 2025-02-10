@@ -1,0 +1,44 @@
+{
+    "carta": [
+        {
+            "nombre": "Fabada Asturiana",
+            "ingredientes": "Fabes asturianes, chorizo, morciella, lacón, azafrán, aceite oliva, cebolla",
+            "precio": "18"
+        },
+        {
+            "nombre": "Croquetas de Jamón",
+            "ingredientes": "Jamón serrano, leche, harina, mantequilla, pan rallado, huevo, aceite para freír",
+            "precio": "8"
+        },
+        {
+            "nombre": "Chorizo a la Sidra",
+            "ingredientes": "Chorizo asturiano, sidra natural",
+             "precio": "9"
+        },
+        {
+            "nombre": "Escalopines al Cabrales",
+            "ingredientes": "Filetes de ternera empanados con salsa de queso Cabrales",
+            "precio": "14"
+        },
+        {
+            "nombre": "Pixín a la Sidra",
+            "ingredientes": "Rape (pixín), sidra natural, cebolla, ajo, perejil",
+            "precio": "20"
+        },
+        {
+            "nombre": "Cachopo",
+            "ingredientes": "Dos filetes de ternera bastante grandes, rellenos de jamón serrano y queso",
+            "precio": "22"
+        },
+        {
+            "nombre": "Merluza a la Sidra",
+            "ingredientes": "Merluza, sidra natural, ajo, cebolla, laurel, pimientos",
+            "precio": "19"
+        },
+        {
+            "nombre": "Andaricas Cocidas",
+            "ingredientes": "Nécoras frescas cocidas con sal y laurel",
+            "precio": "22"
+        }
+    ]
+}

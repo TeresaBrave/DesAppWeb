@@ -1,0 +1,46 @@
+{
+    "cervezas": [
+        {
+            "nombre": "Heineken",
+            "pais": "Países Bajos",
+            "tipo": "Lager",
+            "alcohol": 5
+        },
+        {
+            "nombre": "Corona",
+            "pais": "México",
+            "tipo": "Pale Lager",
+            "alcohol": 4.5
+        },
+        {
+            "nombre": "Guinness",
+            "pais": "Irlanda",
+            "tipo": "Stout",
+            "alcohol": 4.2000000000000002
+        },
+        {
+            "nombre": "Budweiser",
+            "pais": "Estados Unidos",
+            "tipo": "Lager",
+            "alcohol": 5
+        },
+        {
+            "nombre": "Stella Artois",
+            "pais": "Bélgica",
+            "tipo": "Pilsner",
+            "alcohol": 5.2000000000000002
+        },
+        {
+            "nombre": "Paulaner",
+            "pais": "Alemania",
+            "tipo": "Weißbier",
+            "alcohol": 5.5
+        },
+        {
+            "nombre": "San Miguel"
+        },
+        {
+            "nombre": "Elma"
+        }
+    ]
+}
