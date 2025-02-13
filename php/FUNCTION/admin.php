@@ -15,7 +15,15 @@
 <?php
 
 //1ºCargar datos que recogemos en los inputs
-$nombre=$_GET['nombre']; //cada dato igualado a variable nueva
+$nombre=$_GET['nombre']; //contenido sin revisar, se podría meter codigo malicioso
+
+//------------------->SANINTIZAR<-------------------
+if ($nombre !== strip_tags($nombre)){
+    echo "<h2>No se puede insertar fragmento de código</h2>";
+    
+    // Sanitizar el nombre para evitar inyección de código
+    $nombre = htmlspecialchars($_GET['nombre'], ENT_QUOTES, 'UTF-8');
+}
 
 echo $nombre;
 

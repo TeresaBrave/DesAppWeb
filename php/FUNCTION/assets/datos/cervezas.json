@@ -35,12 +35,6 @@
             "pais": "Alemania",
             "tipo": "Weißbier",
             "alcohol": 5.5
-        },
-        {
-            "nombre": "San Miguel"
-        },
-        {
-            "nombre": "Elma"
         }
     ]
 }

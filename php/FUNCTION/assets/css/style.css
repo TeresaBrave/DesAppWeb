@@ -1,0 +1,112 @@
+
+:root {
+    --c1:  tan;
+    --c2: brown;
+    --cl: rgb(191, 189, 215);
+    --cd: black;
+    --font-family: "Poppins", serif; serif;
+    --maxw: 960px;
+}
+
+
+body {
+   font-family: "Poppins", serif;
+    padding: 20px;
+    max-width: var(--maxw);
+    margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 10px;
+    color: var(--c1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--c1);
+}
+
+a:hover {
+    color: var(--c2);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+header,
+main,
+footer {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cartelera {
+    display: flex;        /* Organiza los elementos en fila */
+    flex-wrap: wrap;      /* Permite que pasen a la siguiente línea si no caben */
+    gap: 15px;           /* Espacio entre elementos */
+    justify-content: center;  /* Centra los elementos en la línea */
+    padding: 0;
+}
+
+.cartelera li {
+    flex: 1 1 200px;  /* Hace que los elementos sean flexibles y tengan un ancho mínimo */
+    max-width: 220px; /* Máximo ancho por elemento */
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cartelera img {
+    width: 100%;  /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto;
+    border-radius: 5px;
+}
+
+.cartelera h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.cartelera p {
+    font-size: 0.9em;
+    color: var(--c2);
+}
+
+nav ul {
+    list-style: none; /* Elimina los estilos de lista (viñetas) */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinea los elementos en la misma línea */
+    gap: 20px; /* Espacio entre elementos */
+    justify-content: center; /* Centra los elementos */
+    align-items: center; /* Alinea verticalmente */
+}
+
+nav ul li {
+    display: inline-block; /* Asegura que los elementos se mantengan en línea */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: var(--c1); /* Aplica el color definido en la variable */
+    font-size: 1.2em;
+    padding: 8px 12px; /* Espaciado para hacerlo más interactivo */
+    transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+nav ul li a:hover {
+    color: var(--c2); /* Cambia de color cuando el usuario pasa el mouse */
+}
