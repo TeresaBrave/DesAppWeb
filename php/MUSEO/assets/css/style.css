@@ -45,9 +45,9 @@ main,
 footer {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* background-color: #f9f9f9; */
 }
 
 header {
@@ -81,6 +81,8 @@ ul.obras li {
     overflow:hidden;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     transition:.4s;
+
+    scale:1;
 }
 
 ul.obras li h2{
@@ -96,6 +98,7 @@ ul.obras li a{
 
 ul.obras li:hover{
     box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.6);
+    scale:1.04;
 }
 
 ul.obras li img {
@@ -103,6 +106,11 @@ ul.obras li img {
     /* 1:1 para que la imagen mida lo mismo y se alinee*/
     object-fit: cover;
     /* imagen mida lo mismo y se alinee*/
+
+    scale:1.1;
+    transition:.4s;
+
+    mask-image:linear-gradient(black 80%, transparent)}
 }
 
 
@@ -111,6 +119,10 @@ ul.obras li img {
         font-size:14px;
 }
 
+
+ul.obras li:hover img {
+    scale:1;
+}
 
 footer {
     text-align: center;
@@ -263,7 +275,7 @@ footer {
     position:relative;  
 }
 
-.ficharGrande img{
+.ficharGrande img.portada{
     display:block;
     margin:0 auto;
     width:100%;
@@ -277,6 +289,6 @@ footer {
     top:0;
     right:0;
     background:#FFFFFF88;
-    padding:150px 10px;
-    height:100%
+    padding: 69px 10px;
+    /* height: 18px; */
 }

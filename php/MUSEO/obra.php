@@ -16,7 +16,7 @@
         foreach ($museo['obras'] as $obra) {
         if($tituloObra == $obra['titulo']){
             echo '<div class="ficharGrande">';
-            echo "<img src='{$obra['img']}' alt='{$obra['titulo']}'>";
+            echo "<img class='portada' src='{$obra['img']}' alt='{$obra['titulo']}'>";
             echo "<h1>{$obra['titulo']}</h1>";
             echo '<div class="minificha">';
             echo "<p>Autor: {$obra['autor']}</p>";
@@ -24,15 +24,14 @@
             echo "<p>Estilo: {$obra['estilo']}</p>";
             echo "<p>Técnica: {$obra['tecnica']}</p>";
             echo '</div>';
-
-           echo "<p>{$obra['descripcion']}</p>";
+            
+            echo "<p>{$obra['descripcion']}</p>";
+            echo "<img src='{$obra['img']}' alt='{$obra['titulo']}'>";
             echo '</div>';
             break;
                 }
         }
         ?>
         
-        <section>
-
-        </section>
+       
 <? include 'bloques/footer.php'; ?>
