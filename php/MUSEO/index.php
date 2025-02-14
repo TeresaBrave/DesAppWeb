@@ -29,8 +29,5 @@
         echo '</ul>';
         ?>
         
-        <section>
-<ul class="horarios">Horarios</ul>
-
-        </section>
+  
 <? include 'bloques/footer.php'; ?>

@@ -1,6 +1,3 @@
-<? require 'bloques/config.php'; ?>
-<? include 'bloques/header.php'; ?>
-
 <form action="admin.php" method="post" class="form-obras">
     <label for="obra">Nombre de la obra:</label>
     <input type="text" name="obra" id="obra" placeholder="Nombre de la obra" required> <br>
@@ -62,5 +59,3 @@ if(isset($_POST['obra'])){ // si existe obra en el GET
 
 }
 
-
- include 'bloques/footer.php'; ?>

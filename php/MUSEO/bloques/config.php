@@ -14,7 +14,6 @@ function debug($message){
 debug('estás en modo desarrollo');
   
 
-
 //mostrar el array
 function debugPrint_r($array){
     global $debug;

@@ -163,9 +163,12 @@ footer {
 }
 
 /* Estilo para los campos de entrada */
-.form-obras input[type="text"],
-.form-obras input[type="file"],
-.form-obras textarea{
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="file"],
+textarea{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -291,4 +294,10 @@ footer {
     background:#FFFFFF88;
     padding: 69px 10px;
     /* height: 18px; */
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
 }
