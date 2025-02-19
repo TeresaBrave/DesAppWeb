@@ -15,7 +15,24 @@
             <li><a href="expo.php">Exposiciones</a></li>
             <li><a href="contacto.php">Contacto</a></li>
             <li><a href="login.php">Login</a></li>
+            <li><a href="logout.php">Logout</a></li>
+
+
+            <?php
+
+    if($logueado)
+    {
+        echo '<li> estas dentro</li>';
+    }
+
+    else{
+      echo '<li><a href="login.php">Login</a></li>';
+    }
+
+?>
         </ul> 
     </nav>
+
+
 </header>
 <main>

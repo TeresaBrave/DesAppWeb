@@ -1,0 +1,76 @@
+{
+    "peliculas": [
+        {
+            "titulo": "El atlas de las nubes",
+            "director": "Wachowski",
+            "anio": 2012,
+            "genero": ["Ciencia ficción", "Drama"],
+            "sinopsis": "Seis historias entrelazadas en diferentes épocas muestran cómo los actos de un individuo pueden influir en el pasado, presente y futuro.",
+            "img": "https://upload.wikimedia.org/wikipedia/en/2/20/Cloud_Atlas_Poster.jpg"
+        },
+        {
+            "titulo": "El ilusionista",
+            "director": "Neil Burger",
+            "anio": 2006,
+            "genero": ["Drama", "Romance", "Misterio"],
+            "sinopsis": "Un ilusionista en la Viena del siglo XIX usa su talento para recuperar a su amor de la infancia y desafiar a un príncipe despiadado.",
+            "img": "https://m.media-amazon.com/images/S/pv-target-images/ae7f743148d7086820862bee36aeefe0f7c745d4e089b0d90042c7f3c3c330fb.jpg"
+        },
+        {
+            "titulo": "Coherence",
+            "director": "James Ward Byrkit",
+            "anio": 2013,
+            "genero": ["Ciencia ficción", "Thriller"],
+            "sinopsis": "Una cena entre amigos toma un giro surrealista cuando un extraño fenómeno cósmico altera la realidad.",
+            "img": "https://es.web.img3.acsta.net/pictures/14/09/18/10/47/266847.jpg"
+        },
+        {
+            "titulo": "Capitán Fantastic",
+            "director": "Matt Ross",
+            "anio": 2016,
+            "genero": ["Drama", "Comedia"],
+            "sinopsis": "Un padre poco convencional cría a sus hijos en la naturaleza, pero un evento inesperado los enfrenta al mundo real.",
+            "img": "https://m.media-amazon.com/images/S/pv-target-images/7d3dc1ac4c9ad618e9f0e42b89e5103e23e181a327895aa740e0db95810483dc.jpg"
+        },
+        {
+            "titulo": "El gran hotel Budapest",
+            "director": "Wes Anderson",
+            "anio": 2014,
+            "genero": ["Comedia", "Drama", "Aventura"],
+            "sinopsis": "Gustave H., un legendario conserje de un famoso hotel, se ve envuelto en un misterio tras la muerte de una adinerada clienta.",
+            "img": "https://m.media-amazon.com/images/S/pv-target-images/c65b1e84b4a6611284ca9ba6ffd63a14ec91206befced35a7f7ddbb229334010.jpg"
+        },
+        {
+            "titulo": "Interstellar",
+            "director": "Christopher Nolan",
+            "anio": 2014,
+            "genero": ["Ciencia ficción", "Aventura", "Drama"],
+            "sinopsis": "Un grupo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por garantizar la supervivencia de la humanidad.",
+            "img": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "titulo": "La vida secreta de Walter Mitty",
+            "director": "Ben Stiller",
+            "anio": 2013,
+            "genero": ["Aventura", "Drama", "Comedia"],
+            "sinopsis": "Un hombre común con una imaginación desbordante se embarca en una aventura real para encontrar una foto perdida.",
+            "img": "https://es.web.img3.acsta.net/pictures/210/591/21059131_20131119154913018.jpg"
+        },
+        {
+            "titulo": "La favorita",
+            "director": "Yorgos Lanthimos",
+            "anio": 2018,
+            "genero": ["Comedia", "Drama", "Histórica"],
+            "sinopsis": "A principios del siglo XVIII, durante el reinado de la Reina Ana, una joven ambiciosa compite con su amiga por la posición de favorita de la reina.",
+            "img": "https://es.web.img3.acsta.net/pictures/18/11/15/18/22/2738489.jpg"
+          }, 
+        {
+            "titulo": "Lost in Translation",
+            "director": "Sofia Coppola",
+            "anio": 2003,
+            "genero": ["Drama", "Romance"],
+            "sinopsis": "Dos almas solitarias, un actor en declive y una joven en crisis, se encuentran en Tokio y forman una conexión inesperada.",
+            "img": "https://m.media-amazon.com/images/I/91yg9rPwDoL.jpg"
+        }
+    ]
+}

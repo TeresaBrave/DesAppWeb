@@ -31,9 +31,6 @@ else{
         }
     
 
-echo "<pre>";
-print_r($listaPeliculas);
-echo "</pre>";
 
 
 

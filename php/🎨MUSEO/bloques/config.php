@@ -40,7 +40,19 @@ function cargarJSON($archivo){
         
 }
 
-/**** hasta aquí luego pa config.php */
+//INICIO DE SESION
+
+session_start();// Arrancamos la sesion
+
+if(isset($_SESSION['logueado']))
+{
+    echo '<p> Bienvenida, has iniciado sesión </p>';
+    $logueado = true;
+}
+else{
+    echo '<p>No has iniciado sesión</p>';
+    $logueado = false;
+}
 
 
 
