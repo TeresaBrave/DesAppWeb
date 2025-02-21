@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    margin: 50px;
+    padding:30px;
+}
+
+img {
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+li {
+    flex: 1 1 240px;
+}
