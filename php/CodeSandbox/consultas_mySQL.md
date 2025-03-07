@@ -23,7 +23,9 @@ descripcion TEXT
 );
 ```
 
-## Insertar Datos
+## DESDE AQUÍ SERÍAN LAS ORDENES DEL CRUD:  ----------------
+
+## Insertar Datos (Insertar / Crear C ) - No devuelve nada (no hay return)
 
 ```sql
 INSERT INTO Alumnos (nombre, apellido, fecha_nacimiento, email, curso, foto, descripcion)
@@ -46,29 +48,70 @@ VALUES
 
 ```
 
-## Consultar Datos
+## Consultar Datos - Read R - Devuelve los datos de la consulta en Array (SI nesitamos return)
 
 ```sql
 SELECT id, foto, nombre, apellido, foto FROM Alumnos;
-SELECT id, foto, nombre, apellido, foto FROM Alumnos;
-SELECT id, foto, nombre, apellido, foto FROM Alumnos;
-SELECT id, foto, nombre, apellido, foto FROM Alumnos;
 ```
 
-## Consulta espefífica de un elemento
+## Consulta espefífica de un elemento (SI nesitamos return)
 
 ```sql
 SELECT \* FROM Alumnos WHERE id=3;
 ```
 
-## Actualizar Datos
+## Actualizar Datos - Update U - no devuelve nada (no nesitamos return)
 
-````sql
+```sql
 UPDATE Alumnos
 SET nombre = 'Francisco'
 WHERE id = 1;
-
-## Borrar Datos
+```
+## Borrar Datos - Delete D - no devuelve nada (no nesitamos return)
 ```sql
 DELETE FROM Alumnos WHERE id = 2;
 ````
+
+
+
+Crear nuevo alumno
+
+Fulanito de tal - Editar / Borrar / Ver
+Fulanito de tal - Editar / Borrar / Ver
+Fulanito de tal - Editar / Borrar / Ver
+Fulanito de tal - Editar / Borrar / Ver
+Fulanito de tal - Editar / Borrar / Ver
+Fulanito de tal - Editar / Borrar / Ver
+
+
+
+
+     $sql = "SELECT id, firstname, lastname FROM MyGuests";  
+     consulta($sql,1);
+
+
+
+function consulta($sql, $devolver=false){
+   
+    // Crear conexión
+    $conn = mysqli_connect(HOST, USER, PASS, DBNA);
+
+    // Chequear coneción
+    if (!$conn) { die("Conexión fallida: " . mysqli_connect_error()); }
+
+    //Realizar Consulta a la Base de Datos
+    $resultado = mysqli_query($conn, $sql);
+    
+    if($devolver){
+        return $resultado;
+    }
+
+    //Cerramos conexión
+    mysqli_close($conn);
+
+}
+
+
+
+
+   

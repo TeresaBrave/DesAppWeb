@@ -7,18 +7,6 @@
 <p>Este apartado crea la base de datos y el contenido de la misma por primera vez.</p>
 
 <?php 
-// Datos de conexión
-$host ='localhost';
-$user ='root';
-$pass ='root';
-$dbna ='Alumnator';
-
-    // Crear conexión
-    $conn = mysqli_connect($host, $user, $pass, $dbna);
-
-    // Chequear coneción
-    if (!$conn) { die("Conexión fallida: " . mysqli_connect_error()); }
-
     // Crear base de datos
     $sql="
     INSERT INTO Alumnos (nombre, apellido, fecha_nacimiento, email, curso, foto, descripcion)
@@ -39,13 +27,7 @@ $dbna ='Alumnator';
     ('Carmen', 'Vázquez', '2000-04-12', 'carmen@example.com', 'Geografía', 'imagenes/carmen_vazquez.jpg', 'Estudia la geografía humana y cómo la población y los recursos afectan al medio ambiente.'),
     ('Alberto', 'Paredes', '1999-03-09', 'alberto@example.com', 'Matemáticas', 'imagenes/alberto_paredes.jpg', 'Apasionado de la resolución de problemas complejos y las matemáticas puras, le gusta desafiarse a sí mismo con ejercicios difíciles.');";
     
-    if (mysqli_query($conn, $sql)) {
-    echo "<h2>Datos insertados correctamete en tabla Alumnos en la Base de datos <strong>$dbna</strong> creada correctamente</h2>";
-    } else {
-    echo "Error al crear la tabla: " . mysqli_error($conn);
-    }
-    //Cerramos la conexión con la BD
-    mysqli_close($conn);
+    consulta($sql, mensaje:'Datos insertados correctamente en tabla Alumnos');
 
 ?>
 

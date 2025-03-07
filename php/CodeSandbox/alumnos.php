@@ -17,37 +17,55 @@
 <ul id="listaAlumnos" class="lista">
 
 <?php
+        $table = "Alumnos";
+        $sql = "SELECT id, foto, nombre, apellido, curso FROM $table;";
+        
+        $result = consulta($sql,1);
+        
 
-// Datos de conexión
-$host ='localhost';
-$user ='root';
-$pass ='root';
-$dbna ='Alumnator';
+        if (mysqli_num_rows($result) > 0) {
+            // output data of each row
+            while($alumno = mysqli_fetch_assoc($result)) {
+            echo '<li>';
+            echo '<img class="alumno" src="assets/img/uploads/' . $alumno['foto'] . '" alt="">';
+            echo '<h3 class="nombre">'.$alumno['nombre'] .' '.$alumno['apellido'].'</h3>';
+            echo '<p class="curso">'.$alumno['curso'].'</p>';
+            echo '</li>';      }
+        } else {
+            echo "0 Alumnos en la base de datos. Porfavor acuda al apartado instalación.";
+        }
 
-    // Crear conexión
-    $conn = mysqli_connect($host, $user, $pass, $dbna);
 
-    // Chequear coneción
-    if (!$conn) { die("Conexión fallida: " . mysqli_connect_error()); }
 
-    // Crear base de datos
-    $sql="SELECT id, foto, nombre, apellido, curso FROM Alumnos;";
-    $result = mysqli_query($conn, $sql);
+/*
 
-    if (mysqli_num_rows($result) > 0) {
-      // output data of each row
-      while($alumno = mysqli_fetch_assoc($result)) {
-        echo '<li>';
-        echo '<img class="alumno" src="'.$alumno['foto'] . '" alt="">';
-        echo '<h3 class="nombre">'.$alumno['nombre'] .' '.$alumno['apellido'].'</h3>';
-        echo '<p class="curso">'.$alumno['curso'].'</p>';
-        echo '</li>';      }
+    //Comrpueba si la tabla Alumnos existe
+    $checkTable = mysqli_query($conn, "SHOW TABLES LIKE '$table'");
+    if (mysqli_num_rows($checkTable) == 0) {
+        echo "<p>La tabla '$table' no existe. Puedes crearla en el <a href='".URL."/install'>Instalación</a></p>";
     } else {
-      echo "0 Alumnos en la base de datos. Porfavor acuda al apartado instalación.";
+        //Consulta SQL
+        $sql = "SELECT id, foto, nombre, apellido, curso FROM $table;";
+        $result = mysqli_query($conn, $sql);
+
+        if (mysqli_num_rows($result) > 0) {
+            // output data of each row
+            while($alumno = mysqli_fetch_assoc($result)) {
+              echo '<li>';
+              echo '<img class="alumno" src="assets/img/uploads/' . $alumno['foto'] . '" alt="">';
+              echo '<h3 class="nombre">'.$alumno['nombre'] .' '.$alumno['apellido'].'</h3>';
+              echo '<p class="curso">'.$alumno['curso'].'</p>';
+              echo '</li>';      }
+          } else {
+            echo "0 Alumnos en la base de datos. Porfavor acuda al apartado instalación.";
+          }
     }
 
-    //Cerramos la conexión con la BD
-    mysqli_close($conn);
+
+
+
+   */
+
 
 
 ?>

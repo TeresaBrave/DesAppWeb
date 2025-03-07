@@ -7,18 +7,7 @@
 <p>Este apartado crea la base de datos y el contenido de la misma por primera vez.</p>
 
 <?php 
-// Datos de conexión
-$host ='localhost';
-$user ='root';
-$pass ='root';
-$dbna ='Alumnator';
-
-    // Crear conexión
-    $conn = mysqli_connect($host, $user, $pass, $dbna);
-
-    // Chequear coneción
-    if (!$conn) { die("Conexión fallida: " . mysqli_connect_error()); }
-
+    
     // Crear base de datos
     $sql="CREATE TABLE IF NOT EXISTS Alumnos (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -31,15 +20,8 @@ $dbna ='Alumnator';
         descripcion TEXT
         );";
 
-
-    if (mysqli_query($conn, $sql)) {
-    echo "<h2>Tabla Alumnos creada correctamente en la Base de datos <strong>$dbna</strong> creada correctamente</h2>";
-    } else {
-    echo "Error al crear la tabla: " . mysqli_error($conn);
-    }
-    //Cerramos la conexión con la BD
-    mysqli_close($conn);
-
+        // llamamos a la función que realiza la consulta y le pasamos la $sql con los parámetros de la misma
+        consulta($sql,mensaje:'Tabla Alumnos creada correctamente');
 ?>
 
 <ul>

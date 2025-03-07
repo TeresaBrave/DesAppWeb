@@ -66,5 +66,3 @@
         <?debug('fin de header.php')?>
 
         
-
-        

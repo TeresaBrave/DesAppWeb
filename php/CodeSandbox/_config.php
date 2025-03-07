@@ -1,7 +1,7 @@
 <?php
 
 // Instalación en el servidor
-const URL= 'http://talotoys.free.nf/';     // Cambiar este valor por la ruta de tu servidor / proyecto
+const URL= 'http://talotoys.free.nf';     // Cambiar este valor por la ruta de tu servidor / proyecto
 
 // Datos de conexión con la base de datos
 const HOST ='ftpupload.net';
